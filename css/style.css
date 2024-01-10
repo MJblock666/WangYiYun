@@ -1,0 +1,118 @@
+body {
+    margin:0;
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background: url('http://zy.nice-care.nl/Picture/Bg.png') center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header, footer {
+    text-align: center;
+    height: 12vh;
+    width: 100%;
+}
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.topmid{
+    height: 100%;
+    width: auto;
+    background-color: black;
+    border-radius: 50px;
+}
+.topleft{
+    float: left;
+    position: absolute;
+    left: 5vw;
+}
+.topleft img{
+    width: 6vw;
+    height: 6vw;
+}
+.topright{
+    float: right;
+    position: absolute;
+    right: 5vw;
+}
+header i{
+    font-size: 2rem;
+}
+header button{
+    background: rgba(255,255, 255, 0.5);
+    height: 100%;
+    outline: none;
+    border: none;
+    background: none;
+    padding: 0 5vw;
+    cursor: pointer;
+    font-size: 1rem;
+    color: white;
+}
+header button:hover{
+    background-color: white;
+    box-shadow: gray;
+    color: black;
+    border-radius: 50px;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    background-color: black;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    background: rgba(255, 255, 255, 0.8); /* 磨砂玻璃透明效果 */
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    min-width: 50vw;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+}
+.SongImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 25vw;
+}
+.SongImg img{
+    width: 20vw;
+    height:20vw;
+    cursor: pointer;
+    border-radius: 50%;
+    object-fit:cover;
+}
+.SongInfo{
+    float: left;
+    position: absolute;
+    left: 5vw;
+    top: 40%;
+    font-size: 1rem;
+}
+h1 i{
+    margin-right: 1vw;
+    cursor: pointer;
+}
+.Lyrics p{
+    margin-bottom: 20px;
+}
